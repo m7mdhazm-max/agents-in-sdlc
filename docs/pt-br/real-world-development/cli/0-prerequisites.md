@@ -2,30 +2,24 @@
 title: "Lição 0: Pré-requisitos"
 authors:
   - geektrainer
-lastUpdated: 2026-06-30
+lastUpdated: 2026-09-18
 ---
 
 Antes de começar as lições do Copilot CLI, você precisa deixar tudo pronto. Você criará sua própria cópia do repositório Tailspin Toys e iniciará um [codespace][codespaces], cujo terminal integrado será usado para instalar e executar o Copilot CLI na próxima lição.
 
 ## Configurar o repositório do laboratório
 
-Para criar uma cópia do repositório para o código que você desenvolverá, crie uma instância a partir do [modelo][template-repository]. A nova instância conterá todos os arquivos necessários para o laboratório, e você a usará ao longo das lições.
+Você trabalhará na sua própria cópia do projeto Tailspin Toys. Crie-a agora a partir do [repositório template][tailspin-template]. O novo repositório contém todos os arquivos necessários para o laboratório.
 
-1. Em uma nova janela do navegador, acesse o repositório do GitHub deste laboratório: `https://github.com/github-samples/tailspin-toys`.
-2. Crie sua própria cópia do repositório selecionando o botão **Use this template** na página do repositório do laboratório. Em seguida, selecione **Create a new repository**.
-
-    ![Botão Use this template](../../../_images/ex0-use-template.png)
-
-3. Se você estiver fazendo o workshop como parte de um evento conduzido pelo GitHub ou pela Microsoft, siga as instruções fornecidas pelas pessoas mentoras. Caso contrário, crie o novo repositório em uma organização na qual você tenha acesso ao GitHub Copilot.
-
-    ![Preencha as configurações do repositório criado a partir do modelo](../../../_images/ex0-repository-settings.png)
-
-4. Anote o caminho do repositório que você criou (**organization-or-user-name/repository-name**), pois você o usará mais adiante no laboratório.
+1. Em uma nova janela do navegador, acesse o [template do Tailspin Toys][tailspin-template].
+2. Crie sua própria cópia do repositório selecionando **Use this template** e, em seguida, **Create a new repository**.
+3. Se estiver participando do workshop em um evento organizado pelo GitHub ou pela Microsoft, siga as instruções fornecidas pelas pessoas mentoras. Caso contrário, crie o repositório em uma organização na qual você tenha acesso ao GitHub Copilot.
+4. Anote o caminho do repositório criado (`organization-or-user-name/repository-name`), pois você o usará mais adiante no workshop.
 
 > [!NOTE]
-> **Seu backlog já está pronto**
->
-> Quando você cria o repositório a partir do modelo, um backlog de issues do GitHub é criado automaticamente. Você trabalhará com essas issues durante todo o workshop e não precisará criar nada por conta própria.
+> Ao criar o repositório a partir do template, um backlog de issues do GitHub é criado automaticamente. Você trabalhará com essas issues durante todo o workshop; não é necessário criar nenhuma.
+
+Use uma cópia nova do template do workshop. Ela inclui instruções do repositório, o código do aplicativo, testes, uma skill `quality-checks` e o backlog que você usará. Se estiver usando uma cópia antiga, confirme com a pessoa facilitadora se ela contém os arquivos necessários.
 
 ## Criar um codespace
 
@@ -67,6 +61,7 @@ Vamos instalar o Copilot CLI e autenticá-lo com sua conta do GitHub. Continue p
 - [Criar um repositório a partir de um modelo][template-repository]
 - [Introdução ao Codespaces][codespaces-quickstart]
 
+[tailspin-template]: https://github.com/github-samples/tailspin-toys
 [template-repository]: https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-template-repository
 [codespaces-quickstart]: https://docs.github.com/codespaces/getting-started/quickstart
 [next-lesson]: ../1-install-copilot-cli/
